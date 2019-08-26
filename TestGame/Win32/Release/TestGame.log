@@ -1,0 +1,44 @@
+﻿Build started 2019-08-22 00:01:48.
+     1>Project "E:\Games\FrankEngine\TestGame\TestGame.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\TestGame.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isource\objects /Isource\ /I..\box2d /Zi /nologo /W3 /WX- /Ox /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"gameGlobals.h" /Fp"Win32\Release\TestGame.pch" /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\gameGlobals.cpp
+         gameGlobals.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isource\objects /Isource\ /I..\box2d /Zi /nologo /W3 /WX- /Ox /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"gameGlobals.h" /Fp"Win32\Release\TestGame.pch" /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\game.cpp source\gameControl.cpp source\gameGUI.cpp source\objects\enemies.cpp source\objects\gameObjects.cpp source\objects\player.cpp source\objects\weapons.cpp
+         game.cpp
+         gameControl.cpp
+         gameGUI.cpp
+         enemies.cpp
+         gameObjects.cpp
+         player.cpp
+         weapons.cpp
+         Generating Code...
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Release\TestGame.exe" /NOLOGO dinput8.lib dxerr.lib dxguid.lib d3dx9.lib d3dx10.lib d3d9.lib winmm.lib comctl32.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\Games\FrankEngine\TestGame\Win32\Release\TestGame.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Win32\Release\TestGame.lib" /MACHINE:X86 Win32\Release\game.res
+         Win32\Release\gameControl.obj
+         Win32\Release\enemies.obj
+         Win32\Release\gameObjects.obj
+         Win32\Release\game.obj
+         Win32\Release\gameGlobals.obj
+         Win32\Release\gameGUI.obj
+         Win32\Release\player.obj
+         Win32\Release\weapons.obj
+         E:\Games\FrankEngine\box2d\Build\VS2010\bin\Release\Box2D.lib
+         E:\Games\FrankEngine\FrankEngine\Win32\Release\FrankEngine.lib
+         E:\Games\FrankEngine\oggvorbis\ogg\win32\VS2010\Win32\Release\libogg_static.lib
+         E:\Games\FrankEngine\oggvorbis\vorbis\win32\VS2010\libvorbisfile\Win32\Release\libvorbisfile_static.lib
+         E:\Games\FrankEngine\oggvorbis\vorbis\win32\VS2010\libvorbis\Win32\Release\libvorbis_static.lib
+         Generating code
+         Finished generating code
+         TestGame.vcxproj -> E:\Games\FrankEngine\TestGame\Win32\Release\TestGame.exe
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\TestGame.unsuccessfulbuild".
+         Touching "Win32\Release\TestGame.lastbuildstate".
+     1>Done Building Project "E:\Games\FrankEngine\TestGame\TestGame.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.74

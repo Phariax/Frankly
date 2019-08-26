@@ -1,0 +1,4 @@
+gravity = (0, -10)
+gravity=(0,10)
+gravity = (0, 10)
+gravity = (0, -10)

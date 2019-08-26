@@ -1,0 +1,20 @@
+﻿Build started 2019-08-22 00:21:47.
+     1>Project "E:\Games\FrankEngine\oggvorbis\vorbis\win32\VS2010\libvorbisfile\libvorbisfile_static.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32\Debug\libvorbisfile_static.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32\Debug\libvorbisfile_static.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\..\libogg\include /I"..\..\..\..\libogg-1.1.3\include" /I..\..\..\..\ogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include /ZI /nologo /W1 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBVORBISFILE_EXPORTS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\lib\vorbisfile.c
+         vorbisfile.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32\Debug\libvorbisfile_static.lib" /NOLOGO Win32\Debug\vorbisfile.obj
+         libvorbisfile_static.vcxproj -> E:\Games\FrankEngine\oggvorbis\vorbis\win32\VS2010\libvorbisfile\Win32\Debug\libvorbisfile_static.lib
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\libvorbisfile_static.unsuccessfulbuild".
+         Touching "Win32\Debug\libvorbisfile_static.lastbuildstate".
+     1>Done Building Project "E:\Games\FrankEngine\oggvorbis\vorbis\win32\VS2010\libvorbisfile\libvorbisfile_static.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.95

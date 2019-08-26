@@ -1,0 +1,136 @@
+// Microsoft Visual C++ generated resource script.
+//
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define IDC_STATIC -1
+#include <WinResRc.h>
+
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1					 RT_MANIFEST	"Game.manifest"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Game files
+//
+ 
+// engine textures
+smoke						RCDATA		"data\\smoke.png"
+smoke_n						RCDATA		"data\\smoke_n.jpg"
+circle						RCDATA		"data\\circle.png"
+circle_n					RCDATA		"data\\circle_n.jpg"
+dot							RCDATA		"data\\dot.png"
+arrow						RCDATA		"data\\arrow.png"
+lightMask					RCDATA		"data\\lightMask.png"
+lightGel1					RCDATA		"data\\lightGel1.png"
+waterMark					RCDATA		"data\\waterMark.png"
+
+// sounds
+sound_test					WAVE		"data\\sound\\sound_test.wav"
+
+// terrain tiles
+tile_test1					RCDATA		"data\\terrain\\tile_test1.jpg"
+tile_test1_n				RCDATA		"data\\terrain\\tile_test1_n.jpg"
+tile_test1_s				RCDATA		"data\\terrain\\tile_test1_s.jpg"
+tile_test2					RCDATA		"data\\terrain\\tile_test2.jpg"
+tile_test2_n				RCDATA		"data\\terrain\\tile_test2_n.jpg"
+tile_test3					RCDATA		"data\\terrain\\tile_test3.jpg"
+tile_test3_n				RCDATA		"data\\terrain\\tile_test3_n.jpg"
+
+// terrain
+terrain.2dt					RCDATA		"data\\terrain.2dt"
+
+// fonts
+font1						RCDATA		"data\\font1.png"
+font1.fnt					RCDATA		"data\\font1.fnt"
+ 
+// pixel shaders
+normalMapShader.psh			RCDATA		"data\\shaders\\normalMapShader.psh"
+deferredLightShader.psh		RCDATA		"data\\shaders\\deferredLightShader.psh"
+directionalLightShader.psh	RCDATA		"data\\shaders\\directionalLightShader.psh"
+blurShader.psh				RCDATA		"data\\shaders\\blurShader.psh"
+
+// tile sheets
+tiles0						RCDATA		"data\\tiles0.png"
+tiles0_n					RCDATA		"data\\tiles0_n.png"
+tiles0_s					RCDATA		"data\\tiles0_s.png"
+tiles0_e					RCDATA		"data\\tiles0_e.png"
+terrainTiles0				RCDATA		"data\\terrainTiles0.png"
+terrainTiles0_n				RCDATA		"data\\terrainTiles0_n.png"
+terrainTiles0_s				RCDATA		"data\\terrainTiles0_s.png"
+terrainTiles0_e				RCDATA		"data\\terrainTiles0_e.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN_ICON			ICON		"data\\game.ico"
+IDI_MAIN_ICON_SMALL		ICON		"data\\gameSmall.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define IDC_STATIC -1\r\n"
+    "#include <winresrc.h>\r\n"
+    "\r\n"
+    "\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

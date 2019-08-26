@@ -1,0 +1,191 @@
+
+The Frank Engine
+Copyright 2013 Frank Force
+http://www.frankforce.com
+
+This file is a place to keep notes and todo list to help manage the project.
+
+================================================================================
+
+To Do:
+refresh textures from additional paths or sub directories
+optional help info for console commands
+separate light stuff into seperate files
+easier way to play sounds
+Wrap up DirectX rendering in preparation for cross platform
+Scripting support
+Faster dynamic typing
+Object inspection mode (pauses game and mouse over objects to get info)
+Basic particle system editor
+functions to set restitution and friction for all shapes in a body
+built in support for paralax background
+render shadow map from center of stream window
+make main menu a separate mode
+dynamic light loding
+- prioritze which lights to render if max limit is reached
+- use smaller buffer and less passes if light is small
+better support for setting first unique handle
+way to cover up enemies and stuff getting destroyed
+respawn timers built into do not spawn list
+only rebuild 1 tile when it is destroyed
+achievement system
+custom light halos
+object pick
+- when F1 is up, show info for objects on mouse over
+way to have map only reveal los
+try different buffer formats if the first one fails
+edit particle emitters
+save/load particle emitter
+hook up particle debugger
+make way to group effects and sounds
+- is effect attached?
+- is sound attached?
+- sound radius
+better decide how to handle coppying of weapon and particle defs
+- maybe do refrence counting
+shadow color maps
+scalable fonts
+- distance map
+- kerning
+- better popop rendering
+- render background
+- align top/bottom/left/right
+- fit text to box, pass in font size and box size
+- screen space rendering
+
+when streaming objects check if neighboring patches have static objects that are overlapping this patch
+change shadow rendering so it is always centered around streamed in area
+pathfinding
+ability to have stubs off the patch, keep track in separate list
+validate button - check for duplicate handles etc
+three layer terrain
+block memory allocation  for game objects, override new
+optimize physics for terrain tiles
+prioritize which lights get rendered if there are too many
+use smaller resolution texture for smaller lights
+better debug console
+ automatically show matches without pressing tab
+faster save texture to disk for snapshots
+make windows clipboard work
+check startup frame by frame looking for 1 frame issues
+better attributes parser for strings
+fix up attributes texture parser, make it use quotes
+clean up world object group
+need multiple render passed for objects so they can render a shadow below them
+lights cleanup, better pass stuff
+
+optimize edit mode rendering
+render to texture callback for object stubs
+
+editor color for tiles to tell different types apart that look the same
+hook up gamepad vibration
+
+move the terrain generation patch rotation function to base
+if terrain loading has different fullsize let it still laod in
+rotate functions for patch in editor
+
+particle system object, takes paramaeters in attributes string
+- has editor componetent to tweak values
+- can save particle system to disk
+- can copy and paste attributes into code for easy particle system creation
+
+move better cam control to example
+stagger streamming of patches, only do 1 per frame
+
+fix input keys getting stuck when focus is lost
+- this may only happen in debug
+
+look at issue with creating new objects while user is edit mode causing them to have duplicate handles
+
+easier way to hook up sounds
+
+separate objects into lists for update and render
+
+interpolation for gamepad stick
+
+better uv fix, should use 1 or 2 minus texture size in pixels?
+
+look into 3 layer terrain
+
+look into old linear dampenign and gravity hacks
+
+object seralize
+- keep a timer in stub of how long stubs have been streamed out
+
+support non square terrain
+
+move basic terrain gen functionality to base
+- make classes virtual
+
+effect that breaks a quad up into pieces and throws them around for explosions
+
+get rid of RenderShadow stuff
+
+wrap size for tiles
+- use smaller tile size, pick offset based on tile mod
+
+shadow mask render pass
+- allow some objects to opt in to render white masks to another buffer like the normal or spec buffers
+- use those buffers when renering the shadow lights
+- this way they will appear to be above shadows
+
+or
+- shadow maps could be grayscale based on height/render group
+- white is ground, black is ceiling
+- cast keeping same level
+- make another map to match with normal and spec
+- compare to check if area is shadowed
+
+way to set halo texture
+way to use higher/lower res textures for some lights
+
+make weapon def copy particle systems
+use higher precision timers
+
+assert if trying to render outside render block
+make templated object handle class
+
+figure out better way to apply half pixel offset
+
+implement typed handles
+
+distortion maps
+
+sound def object
+auto update sound positions based on object, use handle to resolve
+
+only show reload asset message if f3 is pressed
+
+xml parser
+
+ps4 controller
+
+light color iterp
+low details settings button
+
+override << ops to write to console && debug
+
+better is dead logic for actors
+
+copy paste into debug console
+
+better string support for object attributes
+
+active terrain patches should be added to world
+
+edit mode lighting preview
+- objects can have light preview settings
+
+- adds itself to hash table of object handles with light settings in stub render
+- gets cleared every frame
+
+better way to update lights
+- get rid of virtuals
+- separate away from object
+- edit mode light preview
+
+change weapon -> gun
+
+switch to x input
+
+ShouldCollideSight -> BlocksVision, default false

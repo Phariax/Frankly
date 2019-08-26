@@ -1,0 +1,112 @@
+﻿Build started 2019-08-22 00:21:49.
+     1>Project "E:\Games\FrankEngine\FrankEngine\FrankEngine.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32\Debug\FrankEngine.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32\Debug\FrankEngine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IDXUT\Core /IDXUT\Optional /IFrankEngine\Source /IGame\ /IGame\custom /I..\Box2d /IE:\Games\FrankEngine\FrankEngine\Source\Objects /ZI /nologo /W3 /WX /Od /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"frankEngine.h" /Fp"Win32\Debug\FrankEngine.pch" /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\frankEngine.cpp
+         frankEngine.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IDXUT\Core /IDXUT\Optional /IFrankEngine\Source /IGame\ /IGame\custom /I..\Box2d /IE:\Games\FrankEngine\FrankEngine\Source\Objects /ZI /nologo /W3 /WX /Od /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"frankEngine.h" /Fp"Win32\Debug\FrankEngine.pch" /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DXUT\Core\DXUT.cpp DXUT\Core\DXUTenum.cpp DXUT\Optional\DXUTgui.cpp DXUT\Core\DXUTmisc.cpp DXUT\Optional\DXUTres.cpp DXUT\Optional\SDKmisc.cpp DXUT\Optional\SDKsound.cpp DXUT\Optional\SDKwavefile.cpp Source\Core\debugConsole.cpp Source\Core\debugMessage.cpp Source\Core\frankMath.cpp Source\Core\frankProfiler.cpp Source\Core\frankUtil.cpp Source\Core\inputControl.cpp Source\Core\perlinNoise.cpp Source\Editor\editor.cpp Source\Editor\objectEditor.cpp Source\Editor\tileEditor.cpp Source\gameControlBase.cpp Source\Gui\editorGui.cpp Source\Gui\guiBase.cpp Source\Objects\actor.cpp Source\Objects\camera.cpp Source\Objects\gameObjectManager.cpp Source\Objects\light.cpp Source\Objects\particleSystem.cpp Source\Objects\projectile.cpp Source\Objects\weapon.cpp Source\Physics\physics.cpp Source\Physics\physicsRender.cpp Source\Rendering\deferredRender.cpp Source\Rendering\frankFont.cpp Source\Objects\gameObject.cpp Source\Objects\gameObjectBuilder.cpp Source\Rendering\frankDebugRender.cpp Source\Rendering\frankFontParser.cpp Source\Rendering\frankRender.cpp Source\Sound\musicControl.cpp Source\Sound\soundControl.cpp Source\Terrain\terrain.cpp Source\Terrain\terrainRender.cpp Source\Terrain\terrainSurface.cpp Source\Terrain\terrainTile.cpp
+         terrainTile.cpp
+         terrainSurface.cpp
+         terrainRender.cpp
+         terrain.cpp
+         soundControl.cpp
+         musicControl.cpp
+         frankRender.cpp
+         frankFontParser.cpp
+         frankDebugRender.cpp
+         gameObjectBuilder.cpp
+         gameObject.cpp
+         frankFont.cpp
+         deferredRender.cpp
+         physicsRender.cpp
+         physics.cpp
+         weapon.cpp
+         projectile.cpp
+         particleSystem.cpp
+         light.cpp
+         gameObjectManager.cpp
+         Generating Code...
+         Compiling...
+         camera.cpp
+         actor.cpp
+         guiBase.cpp
+         editorGui.cpp
+         gameControlBase.cpp
+         tileEditor.cpp
+         objectEditor.cpp
+         editor.cpp
+         perlinNoise.cpp
+         inputControl.cpp
+         frankUtil.cpp
+         frankProfiler.cpp
+         frankMath.cpp
+         debugMessage.cpp
+         debugConsole.cpp
+         SDKwavefile.cpp
+         SDKsound.cpp
+         SDKmisc.cpp
+         DXUTres.cpp
+         DXUTmisc.cpp
+         Generating Code...
+         Compiling...
+         DXUTgui.cpp
+         DXUTenum.cpp
+         DXUT.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32\Debug\FrankEngine.lib" /NOLOGO Win32\Debug\DXUT.obj
+         Win32\Debug\DXUTenum.obj
+         Win32\Debug\DXUTgui.obj
+         Win32\Debug\DXUTmisc.obj
+         Win32\Debug\DXUTres.obj
+         Win32\Debug\SDKmisc.obj
+         Win32\Debug\SDKsound.obj
+         Win32\Debug\SDKwavefile.obj
+         Win32\Debug\debugConsole.obj
+         Win32\Debug\debugMessage.obj
+         Win32\Debug\frankMath.obj
+         Win32\Debug\frankProfiler.obj
+         Win32\Debug\frankUtil.obj
+         Win32\Debug\inputControl.obj
+         Win32\Debug\perlinNoise.obj
+         Win32\Debug\editor.obj
+         Win32\Debug\objectEditor.obj
+         Win32\Debug\tileEditor.obj
+         Win32\Debug\frankEngine.obj
+         Win32\Debug\gameControlBase.obj
+         Win32\Debug\editorGui.obj
+         Win32\Debug\guiBase.obj
+         Win32\Debug\actor.obj
+         Win32\Debug\camera.obj
+         Win32\Debug\gameObjectManager.obj
+         Win32\Debug\light.obj
+         Win32\Debug\particleSystem.obj
+         Win32\Debug\projectile.obj
+         Win32\Debug\weapon.obj
+         Win32\Debug\physics.obj
+         Win32\Debug\physicsRender.obj
+         Win32\Debug\deferredRender.obj
+         Win32\Debug\frankFont.obj
+         Win32\Debug\gameObject.obj
+         Win32\Debug\gameObjectBuilder.obj
+         Win32\Debug\frankDebugRender.obj
+         Win32\Debug\frankFontParser.obj
+         Win32\Debug\frankRender.obj
+         Win32\Debug\musicControl.obj
+         Win32\Debug\soundControl.obj
+         Win32\Debug\terrain.obj
+         Win32\Debug\terrainRender.obj
+         Win32\Debug\terrainSurface.obj
+         Win32\Debug\terrainTile.obj
+         FrankEngine.vcxproj -> E:\Games\FrankEngine\FrankEngine\Win32\Debug\FrankEngine.lib
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\FrankEngine.unsuccessfulbuild".
+         Touching "Win32\Debug\FrankEngine.lastbuildstate".
+     1>Done Building Project "E:\Games\FrankEngine\FrankEngine\FrankEngine.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.91

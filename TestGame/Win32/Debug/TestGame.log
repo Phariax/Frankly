@@ -1,0 +1,43 @@
+﻿Build started 2019-08-25 01:22:12.
+     1>Project "E:\Games\FrankEngine\TestGame\TestGame.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\TestGame.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isource\objects /Isource\ /I..\box2d /ZI /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"gameGlobals.h" /Fp"Win32\Debug\TestGame.pch" /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\gameGlobals.cpp
+         gameGlobals.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isource\objects /Isource\ /I..\box2d /ZI /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"gameGlobals.h" /Fp"Win32\Debug\TestGame.pch" /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\game.cpp source\gameControl.cpp source\gameGUI.cpp source\objects\enemies.cpp source\objects\gameObjects.cpp source\objects\player.cpp source\objects\weapons.cpp
+         Skipping... (no relevant changes detected)
+         weapons.cpp
+         player.cpp
+         gameObjects.cpp
+         enemies.cpp
+         gameGUI.cpp
+         gameControl.cpp
+         game.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\TestGame.exe" /INCREMENTAL /NOLOGO dinput8.lib dxerr.lib dxguid.lib d3dx9d.lib d3dx10d.lib d3d9.lib winmm.lib comctl32.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:".\Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\TestGame.lib" /MACHINE:X86 Win32\Debug\game.res
+         Win32\Debug\gameControl.obj
+         Win32\Debug\enemies.obj
+         Win32\Debug\gameObjects.obj
+         Win32\Debug\game.obj
+         Win32\Debug\gameGlobals.obj
+         Win32\Debug\gameGUI.obj
+         Win32\Debug\player.obj
+         Win32\Debug\weapons.obj
+         E:\Games\FrankEngine\box2d\Build\vs2010\bin\Debug\Box2D.lib
+         E:\Games\FrankEngine\FrankEngine\Win32\Debug\FrankEngine.lib
+         E:\Games\FrankEngine\oggvorbis\ogg\win32\VS2010\Win32\Debug\libogg_static.lib
+         E:\Games\FrankEngine\oggvorbis\vorbis\win32\VS2010\libvorbisfile\Win32\Debug\libvorbisfile_static.lib
+         E:\Games\FrankEngine\oggvorbis\vorbis\win32\VS2010\libvorbis\Win32\Debug\libvorbis_static.lib
+         TestGame.vcxproj -> E:\Games\FrankEngine\TestGame\.\TestGame.exe
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\TestGame.unsuccessfulbuild".
+         Touching "Win32\Debug\TestGame.lastbuildstate".
+     1>Done Building Project "E:\Games\FrankEngine\TestGame\TestGame.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.29
